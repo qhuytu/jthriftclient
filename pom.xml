@@ -8,5 +8,11 @@
     <artifactId>jthriftclient</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.thrift</groupId>
+            <artifactId>libthrift</artifactId>
+            <version>0.12.0</version>
+        </dependency>
+    </dependencies>
 </project>
